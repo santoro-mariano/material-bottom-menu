@@ -1,0 +1,31 @@
+.example-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #eee;
+}
+
+mat-sidenav-content {
+  display: flex;
+  flex-direction: column;
+}
+
+mat-toolbar {
+  padding: 15px;
+  box-shadow: 0 8px 6px -6px gray;
+}
+
+main {
+  height: 100%;
+  padding: 25px 35px;
+}
+
+footer {
+  background-color: #003366;
+  padding: 10px 15px;
+  color: #FAFAFA;
+  display: flex;
+  justify-content: space-between;
+}

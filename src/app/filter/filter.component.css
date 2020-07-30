@@ -1,0 +1,28 @@
+:host {
+  display: block;
+  margin: -8px -16px;
+}
+
+header {
+  padding: 15px;
+  background-color: #3F51B5;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.3em;
+}
+
+.filter-form {
+  padding: 15px;
+}
+
+.filter-form > mat-form-field {
+  width: 100%;
+}
+
+.actions {
+  text-align: right;
+  padding: 5px 10px 15px;
+}
+
+.actions > button {
+  margin: 0 10px;
+}
